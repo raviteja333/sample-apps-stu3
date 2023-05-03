@@ -5,7 +5,7 @@
     "start": "http-server -p 9090 -c-1"
   },
   "dependencies": {
-    "fhirclient": "2.0.0",
+    "fhirclient": "2.5.2",
     "http-server": "^0.10.0"
   }
 }
