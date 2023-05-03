@@ -5,7 +5,8 @@
     <script>
       FHIR.oauth2.authorize({
         "client_id": "52a67a29-17fc-4b9f-a9f4-7de57e58acf9",
-        "scope"    : "patient/*.read"
+        "scope"    : "patient/*.read",
+        "pkceMode" : "required"
       });
     </script>
   </head>
